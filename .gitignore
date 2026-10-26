@@ -1,0 +1,31 @@
+# Virtual machines and installation media
+*.iso
+*.vdi
+*.vhd
+*.vhdx
+*.vmdk
+*.ova
+*.ovf
+*.vbox
+*.vbox-prev
+*.sav
+Snapshots/
+WindowsImageBackup/
+
+# Local secrets and private notes
+.env
+.env.*
+*[Cc]redential*
+*[Pp]assword*
+*.key
+*.pfx
+*.p12
+
+# Temporary and editor files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
